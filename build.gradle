@@ -19,6 +19,7 @@ plugins {
 id "com.moowork.node" version "1.2.0"
 }
 node {
+workDir = file("${projectDir}/.gradle/nodejs")
 download=true
 }
 
